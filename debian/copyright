@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: calcfiles
+Source: https://github.com/zhu4ok/sys_programming
+
+Files: *
+Copyright: (c) 2023 Viktoriia Zhukovska
+License: MIT
