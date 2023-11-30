@@ -1,0 +1,5 @@
+Package: calcfiles
+Version: 1.0
+Architecture: all
+Maintainer: Viktoriia Zhukovska <viktoria20020209@gmail.com>
+Description: A script to calculate the number of files
