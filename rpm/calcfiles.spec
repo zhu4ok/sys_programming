@@ -25,6 +25,6 @@ install -m 755 %{_builddir}/sys_programming-main/calc_files.sh %{buildroot}/usr/
 /usr/bin/calc_files
 
 %changelog
-* Mon Nov 30 2023 Viktoriia Zhukovska <viktoriia20020209@gmail.com> - 1.0-1
+* Thu Nov 30 2023 Viktoriia Zhukovska <viktoriia20020209@gmail.com> - 1.0-1
 - Initial build
 
