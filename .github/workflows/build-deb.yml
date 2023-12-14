@@ -23,12 +23,12 @@ jobs:
 
       - name: Build Debian
         run: |
-          mkdir testdebian && mkdir testdebian/DEBIAN
-          mkdir -p testdebian/usr/local/bin
-          cp calc_files.sh testdebian/usr/local/bin/
-          cp debian/control testdebian/DEBIAN
-          dpkg-deb --build testdebian
-          dpkg -i testdebian.deb
+          mkdir hidebian && mkdir hidebian/DEBIAN
+          mkdir -p hidebian/usr/local/bin
+          cp calc_files.sh hidebian/usr/local/bin/
+          cp debian/control hidebian/DEBIAN
+          dpkg-deb --build hidebian
+          dpkg -i hidebian.deb
           chmod +x /usr/local/bin/calc_files.sh
 
       - name: Upload Debian
